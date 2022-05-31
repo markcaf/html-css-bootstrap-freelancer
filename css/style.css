@@ -5,7 +5,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#jumbo{
+/* JUMBO */
+#jumbo, #about{
     padding: 30px 0 20px;
     background-color: #1abc9c;
     color: white;
@@ -29,7 +30,9 @@ body{
 .bi-star-fill{
     font-size: 25px;
 }
+/* /JUMBO */
 
+/* PORTFOLIO */
 #portfolio{
     padding: 30px 0;
 }
@@ -38,3 +41,12 @@ body{
     width: 100%;
     border-radius: 10px;
 }
+/* /PORTFOLIO */
+
+/* ABOUT */
+.ms_download {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
