@@ -1,6 +1,10 @@
 /* [class*="col"] { 
 } */
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #jumbo{
     padding: 30px 0 20px;
     background-color: #1abc9c;
@@ -14,11 +18,23 @@
 .ms_star .ms_separator{
     width: 50px;
     height: 3px;
-    color: white;
     opacity: 1;
     border-radius: 5px;
 }
 
+#jumbo .ms_separator{
+    color: white;
+}
+
 .bi-star-fill{
     font-size: 25px;
+}
+
+#portfolio{
+    padding: 30px 0;
+}
+
+.img-box{
+    width: 100%;
+    border-radius: 10px;
 }
