@@ -16,6 +16,18 @@ body{
     width: 50%;
 }
 
+@media all and (min-width:768px){
+    .avatar{
+        width: 30%;
+    }
+}
+
+@media all and (min-width: 992px){
+    .avatar{
+        width: 20%;
+    }
+}
+
 .ms_star .ms_separator{
     width: 50px;
     height: 3px;
