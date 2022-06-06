@@ -99,5 +99,15 @@ body{
 }
 /* /NAV */
 
+/* FORM */
+.ms_button{
+    background-color: #1abc9c;
+    color: #fff;
+}
 
-
+.ms_form{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+}
+/* /FORM */
